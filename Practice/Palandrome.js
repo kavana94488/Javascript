@@ -1,22 +1,17 @@
-let word = "noon";
-let lengthofWord = word.length;
+let word = "noen"
 
-// function palandrome(str) {
-//   for (let i in str) {
-//     if (str[i] === str[lengthofWord - 1]) return "it is a palandrome";
-//     else return "It is not a palandrome";
-//   }
-// }
 
-// console.log(palandrome(word));
+function isPalindrome() {
+    let left = 0;
+    let right = word.length - 1;
 
-function palandrome(word) {
-  for (let i in word) {
-    if (word[i] === word[lengthofWord - 1]) {
-      return "palandrome";
-    } else {
-      return "not a palandrome";
+    while (left < right) {
+        if (word[left] !== word[right]) {
+            return "not a palindrome";
+        }
+        left++;
+        right--;
     }
-  }
+    return "palindrome";
 }
-console.log(palandrome(word));
+
