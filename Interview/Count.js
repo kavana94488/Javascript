@@ -105,50 +105,17 @@
 
 // ----------------------------------------------
 
-// let value = 123456789;
-// let valueString = value.toString();
-//   let arr = val.split("");
-// function add(val) {
+// const number = 123456789
 
-//   let result = 0;
-//   // for (let i of arr) {
-//   //   let numVal = +i;
-//   //   result += numVal;
-//   // }
-//   val.map(item=>{
-//     let numVal = +item;
-//       result += numVal;
-//   })
-//   if (result >= 10) {
-//     result = result.toString();
-//     add(result);
-
-//   }
-//   console.log(result);
+// function count(){
+//     let str = number.toString().split("")
+//     let result = 0;
+//    str = str.forEach(item => 
+//    result = result+Number(item))
+//    return result
+    
 // }
-
-// console.log(add(valueString));
-
-// const number = 12345678912;
-// const numArr = number.toString();
-// const splitnum = numArr.split("");
-
-// const addition = (num) => {
-//   let result = 0;
-//   num.map((item) => {
-//     let digit = +item;
-//     result = result + digit;
-//   });
-
-//   if (result >= 10) {
-//     result = result.toString();
-//     result = result.split("");
-//     addition(result);
-//   }
-
-//   console.log(result);
-// };
-// addition(splitnum);
+// console.log(count())
 
 // ------------------------------------------
 
